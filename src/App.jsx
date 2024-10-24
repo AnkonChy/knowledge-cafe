@@ -1,7 +1,12 @@
+import Header from "./components/Header";
+import Blogs from "./components/Blogs";
 const App = () => {
-  return <div>
-    <h1 className="text-xl">Knowledge Cafe</h1>
-  </div>;
+  return (
+    <div>
+      <Header></Header>
+      <Blogs></Blogs>
+    </div>
+  );
 };
 
 export default App;
